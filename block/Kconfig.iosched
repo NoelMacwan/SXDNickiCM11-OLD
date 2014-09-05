@@ -185,10 +185,10 @@ endchoice
 config DEFAULT_IOSCHED
 	string
 	default "deadline" if DEFAULT_DEADLINE
-    default "row" if DEFAULT_ROW
+	default "row" if DEFAULT_ROW
 	default "cfq" if DEFAULT_CFQ
 	default "bfq" if DEFAULT_BFQ
-    default "sio" if DEFAULT_SIO
+        default "sio" if DEFAULT_SIO
 	default "fiops" if DEFAULT_FIOPS
  	default "vr" if DEFAULT_VR
 	default "zen" if DEFAULT_ZEN
